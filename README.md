@@ -15,10 +15,6 @@ These analysis pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai a
 -   [VS code] (v1.69.2)
 -   Test data: Import test data from the following URL. URL..
 
-Temporal URL (大石さんのみアクセス可能。フォルダごとダウンロードしてください。)
-
-https://ochiailab.sharepoint.com/:f:/s/Ohishi_project/EpidZN_9bv5PvLzaOtaJmgQB9etIS_f9TC0HXuMmD8eI4Q?e=sgnXSG
-
 # Creating ROI using Fiji
 1. Open Fiji.
 2. Open "imagej-macro.ijm" in the above download folder with Fiji. Note: Lines 5\~6 may need to be changed depending on the image acquisition conditions.
