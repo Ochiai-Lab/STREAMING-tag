@@ -17,7 +17,8 @@ These analysis pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai a
 
 # Creating ROI using Fiji
 1. Open Fiji.
-2. Open "imagej-macro.ijm" in the above download folder with Fiji. Note: Lines 5\~6 may need to be changed depending on the image acquisition conditions.
+2. Open "imagej-macro.ijm" in the above download folder with Fiji. 
+  - **Note: Lines 5\~6 may need to be changed depending on the image acquisition conditions.**
 3. Click on Run in the lower left corner and the following window will appear. 
   <img src="https://user-images.githubusercontent.com/111980616/186647612-b618cf36-9e70-4819-9d22-d7cde8cae79a.png" width="400px">
 
