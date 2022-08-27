@@ -1,11 +1,11 @@
 # Introduction
 
-A method described here is for calculating, from microscopic images of the STREAMING-tag system (and fluorescently labeled transcriptional regulators), the distance between the gene of interest and the nearest cluster of transcriptional regulators for each transcriptional activity state of the specific gene, and so on.
-These analysis pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai at Hiroshima University.
+We introduce here a method to calculate the distance between the gene of interest and the nearest transcription regulatory factor cluster for each transcriptional state of the target gene, and other parameters, from microscopic images obtained using the STREAMING-tag system.
+These pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai at Hiroshima University.
 
 
 > **Note** 
-> The analysis method described here is based on data acquisition using Nikon\'s NIS-elements. If the file format is different, the code needs to be changed accordingly.
+> The analysis method described here uses images saved in the Nikon nd2 file format. If you wish to analyze images in a different file format, you will need to modify the code accordingly.
 
 
 
@@ -15,14 +15,14 @@ These analysis pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai a
 -   [Fiji] (v.2.3.0)
 -   [Anaconda] (v4.13.0)
 -   [VS code] (v1.69.2)
--   Test data: Import test data from the following URL. URL..
+-   Test data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7020499.svg)](https://doi.org/10.5281/zenodo.7020499)
 
 # Creating ROI using Fiji
 1. Open Fiji.
 
 2. Open [imagej-macro.ijm](https://github.com/Ochiai-Lab/STREAMING-tag/blob/main/imagej-macro.ijm) with Fiji. 
 > **Note** 
-> Lines 5\~6 may need to be changed depending on the image acquisition conditions.**
+> Lines 5\~6 may need to be changed depending on the image acquisition conditions.
 
 3. Click on Run in the lower left corner and the following window will appear. 
   <img src="https://user-images.githubusercontent.com/111980616/186647612-b618cf36-9e70-4819-9d22-d7cde8cae79a.png" width="400px">
