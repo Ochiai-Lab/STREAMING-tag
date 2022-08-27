@@ -15,6 +15,7 @@ These pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai at Hiroshi
 -   [Fiji] (v.2.3.0)
 -   [Anaconda] (v4.13.0)
 -   [VS code] (v1.69.2)
+-   Script available from this github page. Download together and unzip at an arbitrary location.
 -   Image files in Nikon nd2 format. 
     -   Each file contains images of three channels of SNAPtag-regulatory factor, MCP-RFP, and mTetR-GFP. See [our paper](https://www.biorxiv.org/content/10.1101/2022.01.06.472721v1.full) for imaging conditions. Test data are available from : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7020499.svg)](https://doi.org/10.5281/zenodo.7020499)
 
@@ -91,7 +92,7 @@ pip install zenodo_get
 3. Click on Lunch in "VS code".
 <img src="https://user-images.githubusercontent.com/111980616/186648748-e1bbd828-ab62-4b6b-b40d-63b65d05bc7d.png" width="200px">
 
-4. VS code will start up. Drag the Jupyter notebook file (STtag_analysis.ipynb) to VS code. The file is located in the "jupyter" folder of the above download folder.  
+4. VS code will start up. Drag the Jupyter notebook file ([STtag_analysis.ipynb](https://github.com/Ochiai-Lab/STREAMING-tag/blob/main/jupyter/STtag_analysis.ipynb)) to VS code. This file is located in the "jupyter" folder in the folder downloaded from this github page. 
 
 5. Click on the upper right corner where it says \"base(Python 3.9.12)\" or something similar and select STtag_analysis from the list of environments displayed at the top.  
 
