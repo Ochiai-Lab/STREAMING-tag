@@ -15,7 +15,8 @@ These pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai at Hiroshi
 -   [Fiji] (v.2.3.0)
 -   [Anaconda] (v4.13.0)
 -   [VS code] (v1.69.2)
--   Test data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7020499.svg)](https://doi.org/10.5281/zenodo.7020499)
+-   Image files in Nikon nd2 format. 
+    -   Each file contains images of three channels of SNAPtag-regulatory factor, MCP-RFP, and mTetR-GFP. See [our paper](https://www.biorxiv.org/content/10.1101/2022.01.06.472721v1.full) for imaging conditions. Test data are available from : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7020499.svg)](https://doi.org/10.5281/zenodo.7020499)
 
 # Creating ROI using Fiji
 1. Open Fiji.
@@ -27,7 +28,7 @@ These pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai at Hiroshi
 3. Click on Run in the lower left corner and the following window will appear. 
   <img src="https://user-images.githubusercontent.com/111980616/186647612-b618cf36-9e70-4819-9d22-d7cde8cae79a.png" width="400px">
 
-4. As the Input directory, specify the \"nd2_files\" folder where the nd2 files were saved above. As Output directory, create a folder named \"roi\" at the same level as the nd2_files folder, and specify it as the output directory. File suffix should be \".nd2\". Click OK. Multiple windows will appear.
+4. As the Input directory, specify a folder named \"nd2_files\" where nd2 files are located. As Output directory, create a folder named \"roi\" at the same level as the nd2_files folder, and specify it as the output directory. File suffix should be \".nd2\". Click OK. Multiple windows will appear.
 
 5. First, click Synchronize All under \"Synchronize Windows\". Also, uncheck or check the boxes to match the following. 
   <img src="https://user-images.githubusercontent.com/111980616/186648227-2530fbd0-00a9-4e4a-a6c4-a83b67795287.png" width="350px">
@@ -45,26 +46,27 @@ These pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai at Hiroshi
 9. Repeat steps 5\~8.
 
 # Anaconda Setup
-1. This operation is necessary only for the first time. From the next time onward, simply start with the next section.
+> **Note** 
+> This operation is necessary only for the first time. From the next time onward, simply start with the next section.
 
-2. Open Anaconda Navigator.
+1. Open Anaconda Navigator.
 
-3. Click on Environments in the upper left corner.
+2. Click on Environments in the upper left corner.
   <img src="https://user-images.githubusercontent.com/111980616/186648391-074e41bb-bbba-4c99-94cd-50812fcf196d.png" width="250px">
 
-4. Click Create.
+3. Click Create.
 
-5. Enter \"STtag_analysis\" in Name.
+4. Enter \"STtag_analysis\" in Name.
 
-6. Check only Python. Select the version 3.9.12. Click Create. After a few moments, the STtag_analysis environment will be created. From the next time on, simply select this environment.
+5. Check only Python. Select the version 3.9.12. Click Create. After a few moments, the STtag_analysis environment will be created. From the next time on, simply select this environment.
   <img src="https://user-images.githubusercontent.com/111980616/186648477-7f92b007-4bd3-4e54-86ab-7cdcdd22cf56.png" width="400px">
 
-7. Next, click the Play button on the right side of STtag_analysis and click Open Terminal. 
+6. Next, click the Play button on the right side of STtag_analysis and click Open Terminal. 
   <img src="https://user-images.githubusercontent.com/111980616/186648557-e9da18a8-2439-4785-8d3e-ed75df854663.png" width="400px">
 
-8. The Terminal will then open automatically. Confirm that the left side of the window is labeled (STtag_analysis).
+7. The Terminal will then open automatically. Confirm that the left side of the window is labeled (STtag_analysis).
 
-9. Copy and paste the following line by line in Terminal and execute.
+8. Copy and paste the following line by line in Terminal and execute.
 
 ```
 pip install pims
@@ -78,7 +80,7 @@ pip install statannotations
 pip install statsmodels
 pip install zenodo_get
 ```
-10. Return to Home.
+9. Return to Home.
 
 # Image analysis using Python
 1. Open "Anaconda Navigator".
