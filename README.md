@@ -99,7 +99,7 @@ pip install zenodo_get
 6. Follow the instructions in the Jupyter notebook to proceed with the analysis.
 
 # Citation
-[Ohishi, H. *et al.* STREAMING-tag system reveals spatiotemporal relationships between transcriptional regulatory factors and transcriptional activity. *bioRxiv* 2022.01.06.472721 (2022) doi:10.1101/2022.01.06.472721.](https://www.biorxiv.org/content/10.1101/2022.01.06.472721v1)
+[Ohishi, H. *et al.* STREAMING-tag system reveals spatiotemporal relationships between transcriptional regulatory factors and transcriptional activity. *Nature Communications* 13:7672 (2022) doi:10.1038/s41467-022-35286-2](https://www.nature.com/articles/s41467-022-35286-2)
 
 # Contact
 Hiroaki Ohishi, email : hiroakioh (at) hiroshima-u dot ac dot jp  
