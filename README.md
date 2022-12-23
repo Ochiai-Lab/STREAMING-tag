@@ -17,7 +17,7 @@ These pipelines were established by Hiroaki Ohishi and Hiroshi Ochiai at Hiroshi
 -   [VS code] (v1.69.2)
 -   Script available from this github page. Download together and unzip at an arbitrary location.
 -   Image files in Nikon nd2 format. 
-    -   Each file contains images of three channels of SNAPtag-regulatory factor, MCP-RFP, and mTetR-GFP. See [our paper](https://www.biorxiv.org/content/10.1101/2022.01.06.472721v1.full) for imaging conditions. Test data are available from : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7020499.svg)](https://doi.org/10.5281/zenodo.7020499)
+    -   Each file contains images of three channels of SNAPtag-regulatory factor, MCP-RFP, and mTetR-GFP. See [our paper](https://www.nature.com/articles/s41467-022-35286-2) for imaging conditions. Test data are available from : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7020499.svg)](https://doi.org/10.5281/zenodo.7020499)
 
 # Creating ROI using Fiji
 1. Open Fiji.
