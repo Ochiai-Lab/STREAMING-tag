@@ -11,16 +11,6 @@ def func_distance_2d(x_1, y_1, x_2, y_2):  # all are values
     
     return dis
 
-#def func_dis_min_2d(a, b, c, d):  # a and b are values, c, d are list or df
-#    dis_spot = []
-#    for x, y in zip(c, d):
-#        dis = distance.euclidean((a, b), (x, y))
-#        dis_spot.append(dis)
-#    aa = dis_spot.index(min(dis_spot)) #index
-#    bb = min(dis_spot) #distance
-#    
-#    return aa, bb
-
 
 def func_dis_min_2d(a, b, c, d):  # a and b are values, c, d are list or df
     dis_spot = []
