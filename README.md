@@ -103,7 +103,7 @@ pip install zenodo_get
 
 # Contact
 Hiroaki Ohishi, email : hohishi (at) bioreg dot kyushu-u dot ac dot jp  
-Hiroshi Ochiai, email : ochiai (at) hiroshima-u dot ac dot jp
+Hiroshi Ochiai, email : ochiai (at) bioreg dot kyushu-u dot ac dot jp
 
   [Fiji]: https://fiji.sc/
   [Anaconda]: https://www.anaconda.com/products/distribution
