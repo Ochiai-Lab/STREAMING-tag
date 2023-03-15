@@ -102,7 +102,7 @@ pip install zenodo_get
 [Ohishi, H. *et al.* STREAMING-tag system reveals spatiotemporal relationships between transcriptional regulatory factors and transcriptional activity. *Nature Communications* 13:7672 (2022) doi:10.1038/s41467-022-35286-2](https://www.nature.com/articles/s41467-022-35286-2)
 
 # Contact
-Hiroaki Ohishi, email : hiroakioh (at) hiroshima-u dot ac dot jp  
+Hiroaki Ohishi, email : hohishi (at) bioreg dot kyushu-u dot ac dot jp  
 Hiroshi Ochiai, email : ochiai (at) hiroshima-u dot ac dot jp
 
   [Fiji]: https://fiji.sc/
